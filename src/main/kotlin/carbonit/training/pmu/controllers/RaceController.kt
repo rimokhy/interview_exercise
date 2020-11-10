@@ -1,6 +1,5 @@
 package carbonit.training.pmu.controllers
 
-import carbonit.training.pmu.responses.ParticipationBySex
 import carbonit.training.pmu.responses.Participations
 import carbonit.training.pmu.services.RaceParticipantService
 import org.springframework.beans.factory.annotation.Autowired
