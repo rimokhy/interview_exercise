@@ -1,5 +1,6 @@
 package carbonit.training.pmu.services
 
+import carbonit.training.pmu.resources.Participation
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.whenever
 import org.junit.jupiter.api.Assertions.assertEquals
@@ -36,7 +37,7 @@ internal class RaceParticipantServiceTest {
         assertEquals(1, runners.size)
         assertEquals(1, runners[0].id)
         assertEquals("DONNE LE CHANGE", runners[0].name)
-        assertEquals("PARTANT", runners[0].status)
+        assertEquals(Participation.PARTANT, runners[0].status)
         assertEquals("HONGRES", runners[0].sex)
         assertEquals(true, runners[0].isParticipating)
     }
