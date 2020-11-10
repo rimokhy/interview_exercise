@@ -7,10 +7,6 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.mockito.Mockito
-import java.io.BufferedReader
-import java.io.File
-import java.io.FileReader
-import java.lang.IllegalStateException
 import java.time.LocalDate
 
 internal class RaceParticipantServiceTest {
