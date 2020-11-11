@@ -13,9 +13,7 @@ data class Participants(val participants: List<Participant>)
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class Participant(
-        @JsonProperty("numPmu") val id: Int,
         @JsonProperty("statut") val status: Participation,
-        @JsonProperty("nom") val name: String,
         @JsonProperty("sexe") val sex: String
 ) {
     val isParticipating
